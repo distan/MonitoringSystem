@@ -11,7 +11,7 @@ public class Win {
 		win.setBounds(width/4, height/4, width/2, height/2);
 		win.setVisible(true);
 		win.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-		TrayDemo testwin = new TrayDemo();
+		Win testwin = new Win();
 		}
 	void miniTray(){
 		PopupMenu pop = new PopupMenu();
